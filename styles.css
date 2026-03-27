@@ -1,0 +1,82 @@
+/* ============================================================================
+   IPL FINAL SCORE PREDICTOR - CUSTOM STYLING
+   ============================================================================ */
+
+/* Sidebar Styling */
+[data-testid="stSidebar"][aria-expanded="true"] {
+    width: 350px !important;
+    max-width: 400px !important;
+    background: linear-gradient(180deg, #14299c, #3b5998);
+    color: #fff;
+    padding: 20px;
+}
+
+/* Sidebar text and labels */
+[data-testid="stSidebar"] label {
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+/* Input field styling */
+[data-testid="stSidebar"] input {
+    color: #000 !important;
+    background-color: #fff !important;
+    font-size: 16px !important;
+}
+
+/* Selectbox styling */
+[data-testid="stSidebar"] select {
+    color: #000 !important;
+    background-color: #fff !important;
+    font-size: 16px !important;
+}
+
+[data-testid="stSidebar"] div[data-baseweb="select"] {
+    background-color: #fff !important;
+}
+
+/* Dropdown option styling */
+[data-testid="stSidebar"] [role="listbox"] {
+    background-color: #fff !important;
+}
+
+[data-testid="stSidebar"] [role="option"] {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+/* Main content styling */
+h1 {
+    font-size: 36px !important;
+}
+
+/* Match table styling */
+.match-table table {
+    font-size: 20px !important;
+}
+
+.match-table th {
+    font-size: 22px !important;
+    font-weight: bold !important;
+    padding: 10px 14px !important;
+}
+
+.match-table td {
+    padding: 8px 12px !important;
+}
+
+/* Button styling */
+button[kind="secondary"],
+button[kind="primary"] {
+    font-size: 18px !important;
+    padding: 0.75em 1.5em !important;
+    border-radius: 8px !important;
+    background-color: #14299c !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+button[kind="primary"]:hover {
+    background-color: #3b5998 !important;
+}
